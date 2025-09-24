@@ -1,0 +1,42 @@
+Docker Commands Cheat Sheet
+Created by Gursimran Singh
+
+Basic Docker Commands:
+- docker version: Show Docker version info
+- docker info: Display system-wide info
+- docker login: Log in to a Docker registry
+- docker logout: Log out from the registry
+
+Image Management:
+- docker build -t <image_name> . : Build image from Dockerfile
+- docker images: List local Docker images
+- docker pull <image>: Pull image from registry
+- docker push <image>: Push image to registry
+- docker rmi <image>: Remove an image
+
+Container Management:
+- docker run -it <image> /bin/bash: Run container interactively
+- docker ps: List running containers
+- docker ps -a: List all containers
+- docker stop <container>: Stop a container
+- docker rm <container>: Remove a stopped container
+- docker exec -it <container> bash: Run a command inside a container
+
+Networking:
+- docker network ls: List Docker networks
+- docker network create <name>: Create a new Docker network
+- docker network connect <network> <container>: Connect container to network
+- docker network disconnect <network> <container>: Disconnect container
+
+Volume Management:
+- docker volume ls: List volumes
+- docker volume create <name>: Create a volume
+- docker volume rm <name>: Remove volume
+
+Logs and Monitoring:
+- docker logs <container>: View logs
+- docker stats: Display resource usage stats
+
+Container Cleanup:
+- docker system prune: Remove unused data (containers, networks, images)
+

@@ -1,0 +1,10 @@
+/* Center all index.md content (homepage, blog landing, sections) */
+.homepage-layout > .container,
+.section-layout > .container,
+.main-content > .container {
+  max-width: 900px !important; /* adjust width as desired */
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}

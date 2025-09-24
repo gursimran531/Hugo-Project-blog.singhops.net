@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud &amp; DevOps Engineer on Gursimran&#39;s Blog</title>
+    <link>http://localhost:39309/</link>
+    <description>Recent content in Cloud &amp; DevOps Engineer on Gursimran&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>gursimran@singhops.net (Gursimran Singh)</managingEditor>
+    <webMaster>gursimran@singhops.net (Gursimran Singh)</webMaster>
+    <copyright>Copy, _right?_</copyright>
+    <lastBuildDate>Tue, 23 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:39309/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Contact Me</title>
+      <link>http://localhost:39309/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>gursimran@singhops.net (Gursimran Singh)</author>
+      <guid>http://localhost:39309/about/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,45 @@
+Linux Commands Cheat Sheet
+Created by Gursimran Singh
+
+File and Directory Commands:
+- ls: List directory contents
+- cd [dir]: Change directory
+- pwd: Show current directory
+- mkdir [dir]: Create directory
+- rm [file]: Remove file
+- rm -r [dir]: Remove directory recursively
+
+File Viewing:
+- cat [file]: View file content
+- less [file]: View file content page by page
+- head [file]: View first 10 lines
+- tail [file]: View last 10 lines
+
+File Permissions:
+- chmod [options] [file]: Change file permissions
+- chown [user]:[group] [file]: Change file owner
+
+Process Management:
+- ps: Show running processes
+- top: Interactive process viewer
+- kill [pid]: Terminate process
+
+Disk Usage:
+- df -h: Show disk free space (human-readable)
+- du -sh [dir]: Show directory size
+
+Networking:
+- ping [host]: Test network connection
+- ifconfig: Show network interfaces
+- netstat -tuln: Show open ports
+
+Package Management (Debian/Ubuntu):
+- sudo apt update: Update package list
+- sudo apt upgrade: Upgrade installed packages
+- sudo apt install [package]: Install package
+
+Miscellaneous:
+- echo [text]: Print text to terminal
+- date: Show current date and time
+- whoami: Show current user
+- history: Show command history

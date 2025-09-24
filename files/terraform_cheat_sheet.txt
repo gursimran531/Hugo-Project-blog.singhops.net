@@ -1,0 +1,32 @@
+Terraform Commands Cheat Sheet
+Created by Gursimran Singh
+
+Getting Started:
+- terraform init: Initialize a Terraform working directory
+- terraform validate: Check configuration syntax
+- terraform plan: Preview changes to be applied
+
+Managing Infrastructure:
+- terraform apply: Apply changes to reach desired state
+- terraform destroy: Destroy managed infrastructure
+- terraform refresh: Update state to match real infrastructure
+
+State Management:
+- terraform state list: List resources in state file
+- terraform state show <resource>: Show resource details in state
+- terraform state rm <resource>: Remove a resource from state
+
+Workspaces:
+- terraform workspace list: List workspaces
+- terraform workspace new <name>: Create new workspace
+- terraform workspace select <name>: Switch workspace
+
+Modules:
+- terraform get: Download modules for configuration
+- terraform init -upgrade: Upgrade modules to latest version
+
+Miscellaneous:
+- terraform fmt: Format configuration files
+- terraform output: Show output values
+- terraform import <address> <id>: Import existing resource
+
